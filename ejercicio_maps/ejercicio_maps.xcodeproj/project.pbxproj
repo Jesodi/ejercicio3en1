@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A008741618E4E6D80062FFE0 /* vistaAerea.m in Sources */ = {isa = PBXBuildFile; fileRef = A008741518E4E6D80062FFE0 /* vistaAerea.m */; };
+		A008741C18E4EC8B0062FFE0 /* omnilife_aire.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A008741718E4EC8B0062FFE0 /* omnilife_aire.tiff */; };
+		A008741D18E4EC8B0062FFE0 /* degollado_aire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A008741818E4EC8B0062FFE0 /* degollado_aire.jpg */; };
+		A008741E18E4EC8B0062FFE0 /* colomos_aire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A008741918E4EC8B0062FFE0 /* colomos_aire.jpg */; };
+		A008741F18E4EC8B0062FFE0 /* catedral_aire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A008741A18E4EC8B0062FFE0 /* catedral_aire.jpg */; };
+		A008742018E4EC8B0062FFE0 /* cabanas_aire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A008741B18E4EC8B0062FFE0 /* cabanas_aire.jpg */; };
+		A023FBC118E31D3A00D3B3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBC018E31D3A00D3B3A1 /* Foundation.framework */; };
+		A023FBC318E31D3A00D3B3A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBC218E31D3A00D3B3A1 /* CoreGraphics.framework */; };
+		A023FBC518E31D3A00D3B3A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBC418E31D3A00D3B3A1 /* UIKit.framework */; };
+		A023FBCB18E31D3A00D3B3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FBC918E31D3A00D3B3A1 /* InfoPlist.strings */; };
+		A023FBCD18E31D3A00D3B3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBCC18E31D3A00D3B3A1 /* main.m */; };
+		A023FBD118E31D3A00D3B3A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBD018E31D3A00D3B3A1 /* AppDelegate.m */; };
+		A023FBD418E31D3A00D3B3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A023FBD218E31D3A00D3B3A1 /* Main.storyboard */; };
+		A023FBD718E31D3A00D3B3A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBD618E31D3A00D3B3A1 /* ViewController.m */; };
+		A023FBD918E31D3A00D3B3A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A023FBD818E31D3A00D3B3A1 /* Images.xcassets */; };
+		A023FBE018E31D3A00D3B3A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBDF18E31D3A00D3B3A1 /* XCTest.framework */; };
+		A023FBE118E31D3B00D3B3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBC018E31D3A00D3B3A1 /* Foundation.framework */; };
+		A023FBE218E31D3B00D3B3A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBC418E31D3A00D3B3A1 /* UIKit.framework */; };
+		A023FBEA18E31D3B00D3B3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FBE818E31D3B00D3B3A1 /* InfoPlist.strings */; };
+		A023FBEC18E31D3B00D3B3A1 /* ejercicio_mapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBEB18E31D3B00D3B3A1 /* ejercicio_mapsTests.m */; };
+		A023FBF618E31EBC00D3B3A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A023FBF518E31EBC00D3B3A1 /* MapKit.framework */; };
+		A023FBFF18E324C400D3B3A1 /* celda_lugares.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBFE18E324C400D3B3A1 /* celda_lugares.m */; };
+		A023FC0718E331AE00D3B3A1 /* colomos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A023FC0218E331AE00D3B3A1 /* colomos.jpg */; };
+		A023FC0818E331AE00D3B3A1 /* TeatroDegollado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A023FC0318E331AE00D3B3A1 /* TeatroDegollado.jpg */; };
+		A023FC0918E331AE00D3B3A1 /* Hospicio_cabanas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A023FC0418E331AE00D3B3A1 /* Hospicio_cabanas.jpg */; };
+		A023FC0A18E331AE00D3B3A1 /* Catedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A023FC0518E331AE00D3B3A1 /* Catedral.jpg */; };
+		A023FC0B18E331AE00D3B3A1 /* omnilife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A023FC0618E331AE00D3B3A1 /* omnilife.jpg */; };
+		A023FC1118E3EE2F00D3B3A1 /* Map_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FC1018E3EE2F00D3B3A1 /* Map_ViewController.m */; };
+		A023FC1418E3EED400D3B3A1 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FC1318E3EED400D3B3A1 /* MyAnnotation.m */; };
+		A094CA6718E520EF003A1AC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A094CA6618E520EF003A1AC0 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A023FBE318E31D3B00D3B3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A023FBB518E31D3A00D3B3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A023FBBC18E31D3A00D3B3A1;
+			remoteInfo = ejercicio_maps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A008741418E4E6D80062FFE0 /* vistaAerea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vistaAerea.h; path = ../vistaAerea.h; sourceTree = "<group>"; };
+		A008741518E4E6D80062FFE0 /* vistaAerea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = vistaAerea.m; path = ../vistaAerea.m; sourceTree = "<group>"; };
+		A008741718E4EC8B0062FFE0 /* omnilife_aire.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = omnilife_aire.tiff; sourceTree = SOURCE_ROOT; };
+		A008741818E4EC8B0062FFE0 /* degollado_aire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = degollado_aire.jpg; sourceTree = SOURCE_ROOT; };
+		A008741918E4EC8B0062FFE0 /* colomos_aire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colomos_aire.jpg; sourceTree = SOURCE_ROOT; };
+		A008741A18E4EC8B0062FFE0 /* catedral_aire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catedral_aire.jpg; sourceTree = SOURCE_ROOT; };
+		A008741B18E4EC8B0062FFE0 /* cabanas_aire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabanas_aire.jpg; sourceTree = SOURCE_ROOT; };
+		A023FBBD18E31D3A00D3B3A1 /* ejercicio_maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejercicio_maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A023FBC018E31D3A00D3B3A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A023FBC218E31D3A00D3B3A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A023FBC418E31D3A00D3B3A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A023FBC818E31D3A00D3B3A1 /* ejercicio_maps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ejercicio_maps-Info.plist"; sourceTree = "<group>"; };
+		A023FBCA18E31D3A00D3B3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A023FBCC18E31D3A00D3B3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A023FBCE18E31D3A00D3B3A1 /* ejercicio_maps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ejercicio_maps-Prefix.pch"; sourceTree = "<group>"; };
+		A023FBCF18E31D3A00D3B3A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A023FBD018E31D3A00D3B3A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A023FBD318E31D3A00D3B3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A023FBD518E31D3A00D3B3A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A023FBD618E31D3A00D3B3A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A023FBD818E31D3A00D3B3A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A023FBDE18E31D3A00D3B3A1 /* ejercicio_mapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejercicio_mapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A023FBDF18E31D3A00D3B3A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A023FBE718E31D3B00D3B3A1 /* ejercicio_mapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ejercicio_mapsTests-Info.plist"; sourceTree = "<group>"; };
+		A023FBE918E31D3B00D3B3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A023FBEB18E31D3B00D3B3A1 /* ejercicio_mapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ejercicio_mapsTests.m; sourceTree = "<group>"; };
+		A023FBF518E31EBC00D3B3A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A023FBFD18E324C400D3B3A1 /* celda_lugares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = celda_lugares.h; path = ../celda_lugares.h; sourceTree = "<group>"; };
+		A023FBFE18E324C400D3B3A1 /* celda_lugares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = celda_lugares.m; path = ../celda_lugares.m; sourceTree = "<group>"; };
+		A023FC0218E331AE00D3B3A1 /* colomos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colomos.jpg; path = ../colomos.jpg; sourceTree = "<group>"; };
+		A023FC0318E331AE00D3B3A1 /* TeatroDegollado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TeatroDegollado.jpg; path = ../TeatroDegollado.jpg; sourceTree = "<group>"; };
+		A023FC0418E331AE00D3B3A1 /* Hospicio_cabanas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hospicio_cabanas.jpg; path = ../Hospicio_cabanas.jpg; sourceTree = "<group>"; };
+		A023FC0518E331AE00D3B3A1 /* Catedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Catedral.jpg; path = ../Catedral.jpg; sourceTree = "<group>"; };
+		A023FC0618E331AE00D3B3A1 /* omnilife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = omnilife.jpg; path = ../omnilife.jpg; sourceTree = "<group>"; };
+		A023FC0F18E3EE2F00D3B3A1 /* Map_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map_ViewController.h; path = ../Map_ViewController.h; sourceTree = "<group>"; };
+		A023FC1018E3EE2F00D3B3A1 /* Map_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Map_ViewController.m; path = ../Map_ViewController.m; sourceTree = "<group>"; };
+		A023FC1218E3EED400D3B3A1 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAnnotation.h; path = ../MyAnnotation.h; sourceTree = "<group>"; };
+		A023FC1318E3EED400D3B3A1 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAnnotation.m; path = ../MyAnnotation.m; sourceTree = "<group>"; };
+		A094CA6618E520EF003A1AC0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A023FBBA18E31D3A00D3B3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A094CA6718E520EF003A1AC0 /* CoreLocation.framework in Frameworks */,
+				A023FBF618E31EBC00D3B3A1 /* MapKit.framework in Frameworks */,
+				A023FBC318E31D3A00D3B3A1 /* CoreGraphics.framework in Frameworks */,
+				A023FBC518E31D3A00D3B3A1 /* UIKit.framework in Frameworks */,
+				A023FBC118E31D3A00D3B3A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A023FBDB18E31D3A00D3B3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FBE018E31D3A00D3B3A1 /* XCTest.framework in Frameworks */,
+				A023FBE218E31D3B00D3B3A1 /* UIKit.framework in Frameworks */,
+				A023FBE118E31D3B00D3B3A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A023FBB418E31D3A00D3B3A1 = {
+			isa = PBXGroup;
+			children = (
+				A023FBC618E31D3A00D3B3A1 /* ejercicio_maps */,
+				A023FBE518E31D3B00D3B3A1 /* ejercicio_mapsTests */,
+				A023FBBF18E31D3A00D3B3A1 /* Frameworks */,
+				A023FBBE18E31D3A00D3B3A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A023FBBE18E31D3A00D3B3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A023FBBD18E31D3A00D3B3A1 /* ejercicio_maps.app */,
+				A023FBDE18E31D3A00D3B3A1 /* ejercicio_mapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A023FBBF18E31D3A00D3B3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A094CA6618E520EF003A1AC0 /* CoreLocation.framework */,
+				A023FBF518E31EBC00D3B3A1 /* MapKit.framework */,
+				A023FBC018E31D3A00D3B3A1 /* Foundation.framework */,
+				A023FBC218E31D3A00D3B3A1 /* CoreGraphics.framework */,
+				A023FBC418E31D3A00D3B3A1 /* UIKit.framework */,
+				A023FBDF18E31D3A00D3B3A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A023FBC618E31D3A00D3B3A1 /* ejercicio_maps */ = {
+			isa = PBXGroup;
+			children = (
+				A008741718E4EC8B0062FFE0 /* omnilife_aire.tiff */,
+				A008741818E4EC8B0062FFE0 /* degollado_aire.jpg */,
+				A008741918E4EC8B0062FFE0 /* colomos_aire.jpg */,
+				A008741A18E4EC8B0062FFE0 /* catedral_aire.jpg */,
+				A008741B18E4EC8B0062FFE0 /* cabanas_aire.jpg */,
+				A023FC0218E331AE00D3B3A1 /* colomos.jpg */,
+				A023FC0318E331AE00D3B3A1 /* TeatroDegollado.jpg */,
+				A023FC0418E331AE00D3B3A1 /* Hospicio_cabanas.jpg */,
+				A023FC0518E331AE00D3B3A1 /* Catedral.jpg */,
+				A023FC0618E331AE00D3B3A1 /* omnilife.jpg */,
+				A008741418E4E6D80062FFE0 /* vistaAerea.h */,
+				A008741518E4E6D80062FFE0 /* vistaAerea.m */,
+				A023FC1218E3EED400D3B3A1 /* MyAnnotation.h */,
+				A023FC1318E3EED400D3B3A1 /* MyAnnotation.m */,
+				A023FC0F18E3EE2F00D3B3A1 /* Map_ViewController.h */,
+				A023FC1018E3EE2F00D3B3A1 /* Map_ViewController.m */,
+				A023FBFD18E324C400D3B3A1 /* celda_lugares.h */,
+				A023FBFE18E324C400D3B3A1 /* celda_lugares.m */,
+				A023FBCF18E31D3A00D3B3A1 /* AppDelegate.h */,
+				A023FBD018E31D3A00D3B3A1 /* AppDelegate.m */,
+				A023FBD218E31D3A00D3B3A1 /* Main.storyboard */,
+				A023FBD518E31D3A00D3B3A1 /* ViewController.h */,
+				A023FBD618E31D3A00D3B3A1 /* ViewController.m */,
+				A023FBD818E31D3A00D3B3A1 /* Images.xcassets */,
+				A023FBC718E31D3A00D3B3A1 /* Supporting Files */,
+			);
+			path = ejercicio_maps;
+			sourceTree = "<group>";
+		};
+		A023FBC718E31D3A00D3B3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A023FBC818E31D3A00D3B3A1 /* ejercicio_maps-Info.plist */,
+				A023FBC918E31D3A00D3B3A1 /* InfoPlist.strings */,
+				A023FBCC18E31D3A00D3B3A1 /* main.m */,
+				A023FBCE18E31D3A00D3B3A1 /* ejercicio_maps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A023FBE518E31D3B00D3B3A1 /* ejercicio_mapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A023FBEB18E31D3B00D3B3A1 /* ejercicio_mapsTests.m */,
+				A023FBE618E31D3B00D3B3A1 /* Supporting Files */,
+			);
+			path = ejercicio_mapsTests;
+			sourceTree = "<group>";
+		};
+		A023FBE618E31D3B00D3B3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A023FBE718E31D3B00D3B3A1 /* ejercicio_mapsTests-Info.plist */,
+				A023FBE818E31D3B00D3B3A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A023FBBC18E31D3A00D3B3A1 /* ejercicio_maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A023FBEF18E31D3B00D3B3A1 /* Build configuration list for PBXNativeTarget "ejercicio_maps" */;
+			buildPhases = (
+				A023FBB918E31D3A00D3B3A1 /* Sources */,
+				A023FBBA18E31D3A00D3B3A1 /* Frameworks */,
+				A023FBBB18E31D3A00D3B3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ejercicio_maps;
+			productName = ejercicio_maps;
+			productReference = A023FBBD18E31D3A00D3B3A1 /* ejercicio_maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A023FBDD18E31D3A00D3B3A1 /* ejercicio_mapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A023FBF218E31D3B00D3B3A1 /* Build configuration list for PBXNativeTarget "ejercicio_mapsTests" */;
+			buildPhases = (
+				A023FBDA18E31D3A00D3B3A1 /* Sources */,
+				A023FBDB18E31D3A00D3B3A1 /* Frameworks */,
+				A023FBDC18E31D3A00D3B3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A023FBE418E31D3B00D3B3A1 /* PBXTargetDependency */,
+			);
+			name = ejercicio_mapsTests;
+			productName = ejercicio_mapsTests;
+			productReference = A023FBDE18E31D3A00D3B3A1 /* ejercicio_mapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A023FBB518E31D3A00D3B3A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SmartPlace;
+				TargetAttributes = {
+					A023FBDD18E31D3A00D3B3A1 = {
+						TestTargetID = A023FBBC18E31D3A00D3B3A1;
+					};
+				};
+			};
+			buildConfigurationList = A023FBB818E31D3A00D3B3A1 /* Build configuration list for PBXProject "ejercicio_maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A023FBB418E31D3A00D3B3A1;
+			productRefGroup = A023FBBE18E31D3A00D3B3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A023FBBC18E31D3A00D3B3A1 /* ejercicio_maps */,
+				A023FBDD18E31D3A00D3B3A1 /* ejercicio_mapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A023FBBB18E31D3A00D3B3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A008741C18E4EC8B0062FFE0 /* omnilife_aire.tiff in Resources */,
+				A023FBD918E31D3A00D3B3A1 /* Images.xcassets in Resources */,
+				A008741D18E4EC8B0062FFE0 /* degollado_aire.jpg in Resources */,
+				A008741E18E4EC8B0062FFE0 /* colomos_aire.jpg in Resources */,
+				A008741F18E4EC8B0062FFE0 /* catedral_aire.jpg in Resources */,
+				A023FBCB18E31D3A00D3B3A1 /* InfoPlist.strings in Resources */,
+				A023FC0818E331AE00D3B3A1 /* TeatroDegollado.jpg in Resources */,
+				A023FC0918E331AE00D3B3A1 /* Hospicio_cabanas.jpg in Resources */,
+				A023FC0A18E331AE00D3B3A1 /* Catedral.jpg in Resources */,
+				A023FC0718E331AE00D3B3A1 /* colomos.jpg in Resources */,
+				A023FC0B18E331AE00D3B3A1 /* omnilife.jpg in Resources */,
+				A023FBD418E31D3A00D3B3A1 /* Main.storyboard in Resources */,
+				A008742018E4EC8B0062FFE0 /* cabanas_aire.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A023FBDC18E31D3A00D3B3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FBEA18E31D3B00D3B3A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A023FBB918E31D3A00D3B3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FBD718E31D3A00D3B3A1 /* ViewController.m in Sources */,
+				A008741618E4E6D80062FFE0 /* vistaAerea.m in Sources */,
+				A023FBFF18E324C400D3B3A1 /* celda_lugares.m in Sources */,
+				A023FC1418E3EED400D3B3A1 /* MyAnnotation.m in Sources */,
+				A023FBD118E31D3A00D3B3A1 /* AppDelegate.m in Sources */,
+				A023FBCD18E31D3A00D3B3A1 /* main.m in Sources */,
+				A023FC1118E3EE2F00D3B3A1 /* Map_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A023FBDA18E31D3A00D3B3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FBEC18E31D3B00D3B3A1 /* ejercicio_mapsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A023FBE418E31D3B00D3B3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A023FBBC18E31D3A00D3B3A1 /* ejercicio_maps */;
+			targetProxy = A023FBE318E31D3B00D3B3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A023FBC918E31D3A00D3B3A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A023FBCA18E31D3A00D3B3A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A023FBD218E31D3A00D3B3A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A023FBD318E31D3A00D3B3A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A023FBE818E31D3B00D3B3A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A023FBE918E31D3B00D3B3A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A023FBED18E31D3B00D3B3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A023FBEE18E31D3B00D3B3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A023FBF018E31D3B00D3B3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ejercicio_maps/ejercicio_maps-Prefix.pch";
+				INFOPLIST_FILE = "ejercicio_maps/ejercicio_maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A023FBF118E31D3B00D3B3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ejercicio_maps/ejercicio_maps-Prefix.pch";
+				INFOPLIST_FILE = "ejercicio_maps/ejercicio_maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A023FBF318E31D3B00D3B3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ejercicio_maps.app/ejercicio_maps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ejercicio_maps/ejercicio_maps-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ejercicio_mapsTests/ejercicio_mapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A023FBF418E31D3B00D3B3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ejercicio_maps.app/ejercicio_maps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ejercicio_maps/ejercicio_maps-Prefix.pch";
+				INFOPLIST_FILE = "ejercicio_mapsTests/ejercicio_mapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A023FBB818E31D3A00D3B3A1 /* Build configuration list for PBXProject "ejercicio_maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A023FBED18E31D3B00D3B3A1 /* Debug */,
+				A023FBEE18E31D3B00D3B3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A023FBEF18E31D3B00D3B3A1 /* Build configuration list for PBXNativeTarget "ejercicio_maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A023FBF018E31D3B00D3B3A1 /* Debug */,
+				A023FBF118E31D3B00D3B3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A023FBF218E31D3B00D3B3A1 /* Build configuration list for PBXNativeTarget "ejercicio_mapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A023FBF318E31D3B00D3B3A1 /* Debug */,
+				A023FBF418E31D3B00D3B3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A023FBB518E31D3A00D3B3A1 /* Project object */;
+}
